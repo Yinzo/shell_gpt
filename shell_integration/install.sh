@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # URLs of the shell scripts for ZSH and BASH
-ZSH_SCRIPT_URL="https://raw.githubusercontent.com/TheR1D/shell_gpt/main/shell_integration/zsh.sh"
-BASH_SCRIPT_URL="https://raw.githubusercontent.com/TheR1D/shell_gpt/main/shell_integration/bash.sh"
+ZSH_SCRIPT_URL="https://raw.githubusercontent.com/Yinzo/shell_gpt/shell-integration-main/shell_integration/zsh.sh"
+BASH_SCRIPT_URL="https://raw.githubusercontent.com/Yinzo/shell_gpt/shell-integration-main/shell_integration/bash.sh"
 
 # Identify the shell
 case $SHELL in

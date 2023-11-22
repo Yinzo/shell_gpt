@@ -6,4 +6,12 @@ if [[ -n "$READLINE_LINE" ]]; then
 fi
 }
 bind -x '"\C-l": _sgpt_bash'
+
+_sgpt_bash_desc() {
+if [[ -n "$READLINE_LINE" ]]; then
+    echo $(sgpt --describe-shell <<< "$READLINE_LINE")
+fi
+}
+bind -x '"\C-x": _sgpt_bash_desc'
+
 # Shell-GPT integration BASH v0.2
